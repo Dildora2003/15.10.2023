@@ -18,7 +18,7 @@ a {
 .container {
   max-width: 1050px;
   margin: 0 auto;
-}  
+}
 /* header */
 header {
   background-image: linear-gradient(
@@ -73,7 +73,11 @@ header {
   line-height: 22px; /* 157.143% */
   letter-spacing: 0.2px;
 }
+i {
+  cursor: pointer;
+}
 .btn {
+  cursor: pointer;
   width: 133px;
   display: inline-block;
   color: #fff;
@@ -185,9 +189,9 @@ h1 {
   background-color: #ddf4ff;
 }
 .div-box:nth-child(3) .box-icon {
-  background-color: #fff;
+  background-color: #f4eced;
 }
-.div-box:nth-child(3) {
+.div-box:hover {
   background-color: #96bb7c;
   color: #fff;
 }
@@ -214,13 +218,13 @@ h1 {
   line-height: 20px; /* 142.857% */
   letter-spacing: 0.2px;
 }
-.div-box:nth-child(3) h4 {
+.div-box:hover h4 {
   color: #fff;
 }
-.div-box:nth-child(3) .hr {
+.div-box:hover .hr {
   background-color: #fff;
 }
-.div-box:nth-child(3) p {
+.div-box:hover p {
   color: #fff;
 }
 
